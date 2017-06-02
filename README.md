@@ -36,7 +36,7 @@ chucknorris.py:
   installer goslate, Json, requests
   chucknorris( mot ) : cette fonction retourne la premiere blague contenant le mot en argument. cette blague est traduite en français avant d'être retournée.
   
-Transcrib.py:
+Transcrib.py:\r
   installer speech_recognition
   transcription(audiofile): cette fonction transcrit le fichier audio passé en paramêtre
   
