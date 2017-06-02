@@ -3,6 +3,10 @@ Python script to learn Pepper dances
 
 Team: Ibrahim ELouard - Marceau Fillon - Jean-Baptiste Rambaud
 
+
+
+## Projet Pricipal 
+
 Lancer le script python main.py ( default ip = adresse ip de pepper_3:192.168.1.34), si autre mettre l'adresse en argument:
 $python main.py --ip 192.168.XX.XX
 
@@ -26,3 +30,15 @@ Pour le relancer il suffit de lui toucher la tête.
 
 
 
+## Partie non intégrée
+
+chucknorris.py: 
+  installer goslate, Json, requests
+  chucknorris( mot ) : cette fonction retourne la premiere blague contenant le mot en argument. cette blague est traduite en français avant d'être retournée.
+  
+Transcrib.py:
+  installer speech_recognition
+  transcription(audiofile): cette fonction transcrit le fichier audio passé en paramêtre
+  
+Audio_test.py:
+  Enregistre un fichier audio grâce au micros de Pepper et le transcrit
